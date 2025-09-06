@@ -31,7 +31,7 @@ Instruction:
    (ex: http://localhost:5173)
 
 
-📝 Reflection (under 100 words)
+📝 Reflection
 
 This challenge strengthened my understanding of how frontends and backends work together. I learned to connect a Vite-based frontend with a Node.js backend and troubleshoot issues like route handling and server ports. Working with db.json also helped me practice API simulation and data flow. Overall, it was a valuable full-stack learning experience.
    
