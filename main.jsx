@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'      // 引入你的应用主组件
-import './index.css'             // 引入全局样式
+import App from './App.jsx'      // Introduce your application's main component.
+import './index.css'             
 
-// 找到 index.html 里的 <div id="root">，把 <App /> 渲染进去
+//Find the `<div id="root">` in `index.html` and render `<App />` inside it.
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
