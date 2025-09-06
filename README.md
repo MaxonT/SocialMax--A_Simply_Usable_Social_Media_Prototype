@@ -6,7 +6,7 @@ Vanderbilt email: ming.t.yang@vanderbilt.edu
 Instruction: 
 📥 Download & Run
 
-1. Clone the repository
+1. Clone the repository to your terminal
    ```bash
    git clone https://github.com/MaxonT/Social-Media-.git
    cd Social-Media-
