@@ -1,0 +1,20 @@
+{
+  "post": [],
+  "posts": [
+    {
+      "id": "16GIv3s6CGOfJlWH_e1lY",
+      "author": "The first Test",
+      "content": "Hello? Hello? \nCan anybody hear me?",
+      "likes": 1,
+      "createdAt": 1757117197972,
+      "comments": [
+        {
+          "id": "SqbhVanfTPcOvYgPdf1CG",
+          "createdAt": 1757117240742,
+          "author": "Tiger",
+          "text": "First Test Succeed!"
+        }
+      ]
+    }
+  ]
+}
