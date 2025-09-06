@@ -19,7 +19,8 @@ Instruction:
    ```bash
    node server.js
 
-4.Use “Command+T” to open another terminal
+4. Use “Command+T” to open another terminal
+
 
 5. Start the frontend server
    ```bash
