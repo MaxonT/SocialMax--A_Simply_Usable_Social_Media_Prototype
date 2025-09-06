@@ -1,4 +1,20 @@
 {
+<<<<<<< HEAD
+    "name": "cpp-social-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "dev": "node server.js"
+    },
+    "dependencies":{  
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "nanoid": "^4.0.2",
+        "zod": "^3.23.8"
+    }
+
+=======
   "name": "frontend",
   "version": "1.0.0",
   "private": true,
@@ -16,4 +32,5 @@
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.0"
   }
+>>>>>>> 50cde6a (init clean frontend (no node_modules))
 }
