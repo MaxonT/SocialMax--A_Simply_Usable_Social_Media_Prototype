@@ -1,5 +1,5 @@
 /**
- * Minimal, fully-runnable backend for your Social-Media app.
+ * Minimal, fully-runnable backend for Social-Media app.
  * Run:  cd backend && npm install && npm run dev
  * API:  http://localhost:5001
  */
