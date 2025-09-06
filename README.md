@@ -20,6 +20,7 @@ Instruction:
    node server.js
 
 4. Use “Command+T” to open another terminal
+
    Don't forget about this step!!
 
 6. Start the frontend server
