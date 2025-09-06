@@ -19,11 +19,13 @@ Instruction:
    ```bash
    node server.js
 
-4. Start the frontend server
+4.Use “Command+T” to open another terminal
+
+5. Start the frontend server
    ```bash
    npm run dev
 
-5. Please COPY!! the link appear at your terminal
+6. Please COPY!! the link appear at your terminal
    (ex: http://localhost:5173)
 
 
