@@ -19,9 +19,9 @@ Instruction:
 
 3. Use “Command+T” to open another terminal
 
-   Don't forget about this step!!
+   !!!!!!DON'T FORGET ABOUT THIS STEP!!!!!!
 
-5. Go to frontend, then install frontend dependencies, then start the frontend server
+4. Go to frontend, then install frontend dependencies, then start the frontend server
    ```bash
    cd ..
 
@@ -32,11 +32,6 @@ Instruction:
    npm install
 
    
-   npm run dev
-
-
-5. Start the frontend server
-   ```bash
    npm run dev
 
 6. Please COPY!! the link appear at your terminal
