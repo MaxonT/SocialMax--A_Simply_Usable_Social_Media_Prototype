@@ -40,5 +40,5 @@ Instruction:
 
 📝 Reflection
 
-This challenge strengthened my understanding of how frontends and backends work together. I learned to connect a Vite-based frontend with a Node.js backend and troubleshoot issues like route handling and server ports. Working with db.json also helped me practice API simulation and data flow. Overall, it was a valuable full-stack learning experience.
+The Change++ challenge was a rollercoaster. I totally broke my project a few times, got lost in Git trees, and even hit the “why isn’t this working?!” meltdown stage. But somehow, after all the crashes and confusion, things finally came together. I actually learned a lot about debugging, file structure, and just pushing through when stuff doesn’t work. In the end, it felt pretty good to see it running—even if the journey was pure chaos.
    
