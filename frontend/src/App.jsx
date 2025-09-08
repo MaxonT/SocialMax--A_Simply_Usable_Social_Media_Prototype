@@ -70,6 +70,7 @@ export default function App() {
       }
       const newPost = await res.json();
       const normalized = normalizePosts([newPost])[0];
+      setError('');
       setPosts(prev => [normalized, ...prev]);
     } catch (e) {
       setError(e?.message || 'Failed to create post');
