@@ -25,12 +25,14 @@ Instruction:
 
 4. Go to frontend, then install frontend dependencies, then start the frontend server
    ```bash
-   cd ..
+   cd ~
+   cd env/Social-Media-/frontend
 
-   cd frontend
 5. Install npm
    ```bash
    npm install
+
+   
 6. Run npm
    ```bash
    npm run dev
