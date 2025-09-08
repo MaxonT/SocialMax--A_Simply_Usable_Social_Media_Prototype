@@ -10,7 +10,7 @@ export default function NewPostForm({ onCreate }) {
     if (!author.trim() || !content.trim()) return;
     setBusy(true);
     try {
-      await onCreate({ author: author.trim(), text: content.trim() });
+      await onCreate({ author: author.trim(), content: content.trim() });
       setContent('');
     } finally {
       setBusy(false);
@@ -26,7 +26,7 @@ export default function NewPostForm({ onCreate }) {
       />
       <textarea
         placeholder="Say something (max 500 chars)"
-        value={text}
+        value={content}
         maxLength={500}
         onChange={e => setContent(e.target.value)}
       />
