@@ -4,7 +4,9 @@ import CommentSection from './CommentSection.jsx';
 
 export default function PostItem({ post, onLike, onUnlike, onAddComment }) {
   const [showComments, setShowComments] = useState(false);
+  console.log(post);
 
+  
   return (
     <article className="card">
       <header className="post-header">
