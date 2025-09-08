@@ -25,16 +25,15 @@ Instruction:
    ```bash
    cd ..
 
-   ```bash
    cd frontend
-
+5. Install npm
    ```bash
    npm install
-
+6. Run npm
    ```bash
    npm run dev
 
-6. Please COPY!! the link appear at your terminal
+8. Please COPY!! the link appear at your terminal
    (ex: http://localhost:5173)
 
 
