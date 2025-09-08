@@ -1,31 +1,38 @@
-// NewPostForm.jsx (FRONTEND COMPONENT)
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export default function NewPostForm({ onCreate }) {
   const [author, setAuthor] = useState('');
   const [content, setContent] = useState('');
+  const [busy, setBusy] = useState(false);
 
-  const handleSubmit = async (e) => {
+  async function submit(e) {
     e.preventDefault();
     if (!author.trim() || !content.trim()) return;
-    await onCreate({ author, content });
-    setAuthor('');
-    setContent('');
-  };
+    setBusy(true);
+    try {
+      await onCreate({ author: author.trim(), content: content.trim() });
+      setContent('');
+    } finally {
+      setBusy(false);
+    }
+  }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={submit} className="form-row">
       <input
-        value={author}
-        onChange={(e) => setAuthor(e.target.value)}
         placeholder="Your name"
+        value={author}
+        onChange={e => setAuthor(e.target.value)}
       />
       <textarea
-        value={content}
-        onChange={(e) => setContent(e.target.value)}
         placeholder="Say something (max 500 chars)"
+        value={content}
+        maxLength={500}
+        onChange={e => setContent(e.target.value)}
       />
-      <button type="submit">Post</button>
+      <button disabled={busy || !author.trim() || !content.trim()}>
+        {busy ? 'Posting...' : 'Post'}
+      </button>
     </form>
   );
 }
