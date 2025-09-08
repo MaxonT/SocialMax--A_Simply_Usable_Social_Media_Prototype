@@ -53,7 +53,7 @@ app.post('/posts', (req, res) => {
   const db = loadDB();
   const post = {
     id: nanoid(),
-    text: content.trim(),
+    content: content.trim(),
     author: author?.trim() || 'Anonymous',
     likes: 0,
     likedBy: [],
