@@ -14,7 +14,7 @@ export default function PostItem({ post, onLike, onUnlike, onAddComment }) {
         </div>
       </header>
 
-      <p className="post-content">{post.text}</p>
+      <p className="post-content">{post.content}</p>
 
       <div className="row">
         <button onClick={onLike}>👍 Like ({post.likes})</button>
