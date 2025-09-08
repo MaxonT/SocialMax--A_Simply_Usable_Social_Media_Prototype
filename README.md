@@ -8,6 +8,8 @@ Instruction:
 
 1. Clone the repository to your terminal
    ```bash
+   mkdir Env
+   cd Env
    git clone https://github.com/MaxonT/Social-Media-.git
    cd Social-Media-
 
