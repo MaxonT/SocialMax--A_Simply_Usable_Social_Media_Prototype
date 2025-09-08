@@ -54,6 +54,10 @@ export default function App() {
   // 
   async function handleCreatePost({ author, content }) {
     setError('');
+    if (!author.trim() || !content.trim()) {
+      setError('Both author and text are required');
+      return;
+    }
     try {
       const res = await fetch(`${API_BASE}/posts`, {
         method: 'POST',
