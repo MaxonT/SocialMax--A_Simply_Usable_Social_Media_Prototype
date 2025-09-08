@@ -46,7 +46,7 @@ app.get('/posts', (req, res) => {
 
 // Create a new post
 app.post('/posts', (req, res) => {
-  const { content, author } = req.body || {};
+  const { text, author } = req.body || {}; //THE CHANGEEEEEEEEEEEEEEEE
   if (!content || typeof content !== 'string') {
     return res.status(400).json({ error: 'text is required' });
   }
