@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import PostItem from './PostItem.jsx';
 
 export default function PostList({ posts, onLike, onUnlike, onAddComment }) {
