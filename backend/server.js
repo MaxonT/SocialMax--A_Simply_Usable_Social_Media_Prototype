@@ -1,5 +1,5 @@
 /**
- * Minimal, fully-runnable backend for Social-Media app.
+ * Minimal, fully-runnable backend for your Social-Media app.
  * Run:  cd backend && npm install && npm run dev
  * API:  http://localhost:5001
  */
@@ -46,14 +46,14 @@ app.get('/posts', (req, res) => {
 
 // Create a new post
 app.post('/posts', (req, res) => {
-  const { text, author } = req.body || {};
-  if (!text || typeof text !== 'string') {
+  const { content, author } = req.body || {};
+  if (!content || typeof content !== 'string') {
     return res.status(400).json({ error: 'text is required' });
   }
   const db = loadDB();
   const post = {
     id: nanoid(),
-    text: text.trim(),
+    text: content.trim(),
     author: author?.trim() || 'Anonymous',
     likes: 0,
     likedBy: [],
