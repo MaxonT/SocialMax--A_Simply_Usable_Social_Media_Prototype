@@ -25,13 +25,13 @@ Instruction:
    ```bash
    cd ..
 
-   
+   ```bash
    cd frontend
 
-   
+   ```bash
    npm install
 
-   
+   ```bash
    npm run dev
 
 6. Please COPY!! the link appear at your terminal
