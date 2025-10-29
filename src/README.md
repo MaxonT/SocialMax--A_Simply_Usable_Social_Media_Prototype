@@ -1,5 +1,5 @@
-## 模块名称：src
-功能：主逻辑代码存放目录
-输入：项目源代码文件
-输出：编译或运行后的程序
-依赖：按照各子模块说明安装相关依赖
+## Module Name: src
+Function: Contains the main application logic and source code.
+Input: Source code files used by the project.
+Output: Compiled or executed program artifacts.
+Dependencies: Install dependencies according to each submodule's instructions.
