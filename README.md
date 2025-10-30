@@ -1,6 +1,5 @@
-# Social-Media-
+# SocialMax
 My name: Ming (Tiger) Yang
-Vanderbilt email: ming.t.yang@vanderbilt.edu
 
 ------
 Instruction: 
