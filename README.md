@@ -1,5 +1,5 @@
 # SocialMax
-My name: Ming (Tiger) Yang
+Creator: Ming (Tiger) Yang
 
 ------
 Instruction: 
@@ -40,7 +40,4 @@ Instruction:
    (ex: http://localhost:5173)
 
 
-📝 Reflection
 
-The Change++ challenge was a rollercoaster. I totally broke my project a few times, got lost in Git trees. But somehow, after all the crashes and confusion, things finally came together. I actually learned a lot about debugging, file structure, and just pushing through when stuff doesn’t work. It felt pretty good to see it running—even if the journey was pure chaos.
-   
