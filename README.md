@@ -37,6 +37,11 @@ Instruction:
    npm run dev
 
 
+7. Please COPY!! the link appear at your terminal
+   (ex: http://localhost:5173)
+
+
+
    ---
 
 ## 🪪 License
@@ -73,10 +78,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-— Crafted with curiosity and kindness by Tiger.
-
-8. Please COPY!! the link appear at your terminal
-   (ex: http://localhost:5173)
 
 
 
