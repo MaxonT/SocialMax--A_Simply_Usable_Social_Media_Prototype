@@ -5,6 +5,7 @@
 Creator: Ming (Tiger) Yang
 
 ------
+This is a simple prototpye for tweeter (X), include like/dislike/comment/post functions. 
 Instruction: 
 📥 Download & Run
 
